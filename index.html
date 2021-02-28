@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <title>Product Landing Page</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex") {
+                    document.querySelector(".menu nav ul").style.display = "none";
+                }
+                else {
+                    document.querySelector(".menu nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+<section id="banner">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="assets/index.html">
+                    <div class="logo_name">
+                        RHINO TECH
+                    </div>
+                    <div class="logo_rhino">
+                        <img src="assets/images/logo.png"/>
+                    </div>
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">PRODUCTS</a></li>
+                        <li><a href="">FEATURES</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">DOWNLOAD</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="intro">
+        <div class="container">
+            <div class="intro_text">
+                <h1>Rhino Tech - The Best Hardware</h1>
+                <h3>
+                    Find the best computer hardware for your budget.</br>
+                    We award hardware when it offers uncompromising performance
+                    or excellent value.
+                </h3>
+            </div>
+            <div class="buttons">
+                <a class="purchase" href="">
+                    Purchase Now
+                </a>
+                <a class="learn" href="">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+</section>
+<section id="new_product">
+    <div class="container">
+        <div class="brands">
+            <img src="assets/images/intel.png"/>
+            <img src="assets/images/amd.png"/>
+            <img src="assets/images/nvidia.png"/>
+            <img src="assets/images/radeon.png"/>
+        </div>
+        <div class="title">
+            <h1>
+                The new Rhino-RX is here</br>A powerful hardware to a limitless mind
+            </h1>
+        </div>
+        <div class="pc_parts">
+            <div class="part">
+                <img src="assets/images/1-cpu.png"/>
+                <div class="part_text">CPU</div>
+                <div class="part_info">
+                    Lorem ipsum dolor sit amet consec tetur
+                    itaque autem neque adipi sicing elit
+                    repudiandae fugiat illo.
+                </div>
+            </div>
+            <div class="part">
+                <img src="assets/images/1-ram.png"/>
+                <div class="part_text">RAM</div>
+                <div class="part_info">
+                    Lorem ipsum dolor sit amet consec tetur
+                    itaque autem neque adipi sicing elit
+                    repudiandae fugiat illo.
+                </div>
+            </div>
+            <div class="part">
+                <img src="assets/images/1-gpu.png"/>
+                <div class="part_text">GPU</div>
+                <div class="part_info">
+                    Lorem ipsum dolor sit amet consec tetur
+                    itaque autem neque adipi sicing elit
+                    repudiandae fugiat illo.
+                </div>
+            </div>
+            <div class="part">
+                <img src="assets/images/1-ssd.png"/>
+                <div class="part_text">SSD</div>
+                <div class="part_info">
+                    Lorem ipsum dolor sit amet consec tetur
+                    itaque autem neque adipi sicing elit
+                    repudiandae fugiat illo.
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product_image">
+                <img src="assets/images/pc1.png"/>
+            </div>
+            <div class="product_info">
+                <div class="title">
+                    <h1>Rhino-RX</br>Charges on</h1>
+                    <img src="assets/images/logo.png"/>
+                </div>
+                <div class="part_info">
+                    Phasellus enim libero, blandit vel sapien vitae,
+                    condimentum ultricies magna et. Quisque euismod
+                    orci ut et lobortis aliquam. Aliquam in tortor enim.
+                </div>
+                <div class="buttons">
+                    <a class="learn" href="">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="double_board">
+    <div class="picture">
+        <img src="assets/images/gpu-pic.jpg">
+    </div>
+    <div class="board">
+        <div class="title">
+            <h1>Checkout the newest graphic card model available</h1>
+        </div>
+        <div class="part_info">
+            Harness the power of the ultimate GPUs for the ultimate Star Wars™ fans.
+            Whether you choose the Jedi Order™ or Galactic Empire™, these Collector’s
+            Edition NVIDIA TITAN Xp GPUs give you amazing performance, powered by the
+            award-winning NVIDIA Pascal™ architecture.
+        </div>
+        <ul>
+            <li><span>&#10003;</span>Lorem ipsum dolor sit amet</li>
+            <li><span>&#10003;</span>Elit sed do eiusmod tempor</li>
+            <li><span>&#10003;</span>Incididunt ut labore</li>
+        </ul>
+    </div>
+</section> 
+<section id="more_products">
+    <div class="container">
+        <div class="product_info">
+            <div class="title">
+                <h1>SSD M.2</br>Improve your pc performance</h1>
+            </div>
+            <div class="part_info">
+                Phasellus enim libero, blandit vel sapien vitae,
+                condimentum ultricies magna et. Quisque euismod
+                orci ut et lobortis aliquam. Aliquam in tortor enim.
+            </div>
+            <div class="buttons">
+                <a class="learn" href="">
+                    Learn More
+                </a>
+            </div>
+        </div>
+        <div class="ssd_pic">
+            <img src="assets/images/ssd-pro.jpg"/>
+        </div>
+    </div>
+</section>
+<section id="bottom">
+    <div class="container">
+        <div class="title">
+            <h1>Rhino's got what you need</h1>
+        </div>
+        <div class="part_info_center">
+            Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do</br>
+            eiusmod tempor posuere molestie lorem lectus interdum augue
+        </div>
+        <div class="other_products">
+            <div class="show_product">
+                <img src="assets/images/a1.jpg"/>
+                <div class="part_text">Motherboards</div>
+                <div class="part_info_end">
+                    Sed commodo suscipit neque et libero sed finibus.
+                    Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt
+                    ligula.
+                </div>
+                <div class="buttons">
+                    <a class="purchase" href="">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="show_product">
+                <img src="assets/images/a2.jpg"/>
+                <div class="part_text">Memory Modules</div>
+                <div class="part_info_end">
+                    Sed commodo suscipit neque et libero sed finibus.
+                    Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt
+                    ligula.
+                </div>
+                <div class="buttons">
+                    <a class="purchase" href="">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="show_product">
+                <img src="assets/images/a3.jpg"/>
+                <div class="part_text">Power Suply Units</div>
+                <div class="part_info_end">
+                    Sed commodo suscipit neque et libero sed finibus.
+                    Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt
+                    ligula.
+                </div>
+                <div class="buttons">
+                    <a class="purchase" href="">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer_area">
+            <div class="topic">
+                RhinoTech
+            </div>
+            <div class="about">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                rhoncus tempus perdiet risus sit amet volutpat.
+            </div>
+            <div class="icons">
+                <img src="assets/images/social1.png"/>
+                <img src="assets/images/social2.png"/>
+                <img src="assets/images/social3.png"/>
+                <img src="assets/images/social4.png"/>
+                <img src="assets/images/social5.png"/>
+            </div>
+        </div>
+        <div class="footer_area">
+            <div class="topic2">
+                Related Links
+            </div>
+            <div class="about">
+                <div class="list">
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Our Team</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Forum</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                 </div>  
+            </div>
+        </div>
+        <div class="footer_area" id="no_border">
+            <div class="topic2">
+                Payment Methods
+            </div>
+            <div class="icons_pay">
+                <img src="assets/images/card0.png"/>
+                <img src="assets/images/card1.png"/>
+                <img src="assets/images/card2.png"/>
+                <img src="assets/images/card3.png"/>
+            </div>
+            <div class="about_copy">
+                © 2021. Rhino. No Rights Reserved.</br>
+                Study and Practice by Kamui
+            </div>
+            <div class="reference">
+                <a href="assets/images/Minutes.jpg" target="_blank">Reference</a>
+            </div>
+        </div>
+    </div>
+</footer>  
+</body>
+</html>

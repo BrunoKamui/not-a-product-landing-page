@@ -1,0 +1,839 @@
+* {
+    font-family:Arial;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#banner {
+    height:970px;
+    background-image:url("../images/laptop.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+header {
+    display:flex;
+    justify-content:center;
+    height:85px;
+    padding:12px 0px;
+}
+
+.container {
+    display:flex;
+    width:1140px;
+}
+
+header .container {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}    
+
+.logo a {
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    height:85px;
+}
+
+.logo_name {
+    font-family:Impact;
+    font-size:22px;
+    color:#bf1e2e;
+    padding-left:5px;
+}
+
+.logo_rhino {
+    transform:scaleX(-1);
+    display:flex;
+    height:50px;
+    width:50px;
+    padding:10px 0px;
+}
+
+.menu ul {
+    display:flex;
+    padding:0;
+}
+
+.menu li {
+    list-style:none;
+}
+
+.menu li a {
+    display:block;
+    text-decoration:none;
+    padding:0px 15px;
+    color:#fff;
+}
+
+.menu li a:hover {
+    color:#bf1e2e;
+}
+
+.menu .active a {
+    color:#bf1e2e;
+}
+
+#intro {
+    display:flex;
+    justify-content:center;
+}
+
+#intro .container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:800px;
+}
+
+.intro_text {
+    display:flex;
+    height:fit-content;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+    text-shadow:5px 5px 10px #000;
+}
+
+.intro_text h1 {
+    font-size:52px;
+    font-weight:lighter;
+    margin:10px;
+}
+
+.intro_text h3 {
+    font-size:16px;
+    font-weight:lighter;
+    letter-spacing:1px;
+    margin:10px;
+    line-height:22px;
+}
+
+.buttons a {
+    display:inline-block;
+    text-decoration:none;
+    margin:20px;
+    padding:15px;
+    width:150px;
+    text-align:center;
+}
+
+.purchase {
+    background-color:#bf1e2e;
+    font-weight:bold;
+    color:#fff;
+    border:2px solid #bf1e2e;
+}
+
+.purchase:hover {
+    background-color:#000;
+    border:2px solid #bf1e2e;
+}
+
+.learn {
+    background-color:#000;
+    font-weight:bold;
+    color:#fff;
+    border:2px solid #000;
+}
+
+.learn:hover {
+    background-color:#bf1e2e;
+    border:2px solid #000;
+}
+
+#new_product {
+    display:flex;
+    justify-content:center;
+    background-color:#fff;
+}
+
+#new_product .container {
+    display:flex;
+    flex-direction:column;
+    height:1200px;
+}
+
+.brands {
+    display:flex;
+    justify-content:space-evenly;
+    width:inherit;
+    margin-bottom:40px;
+}
+
+.brands img {
+    display:flex;
+    width:180px;
+    height:80px;
+    filter:grayscale(1) brightness(0) opacity(50%);
+}
+
+.brands img:hover {
+    filter:none;
+}
+
+.title {
+    text-align:center;
+    margin:30px 0px;
+}
+
+.title h1 {
+    font-size:40px;
+    font-weight:lighter;
+}
+
+.pc_parts {
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:30px;
+}
+
+.part {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.part img {
+    display:flex;
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    background-color:#000;
+}
+
+.part_text {
+    text-align:center;
+    margin:15px 0px;
+    color:#000;
+}
+
+.part_info {
+    display:flex;
+    width:150px;
+    text-align:justify;
+    color:#777;
+    font-size:12px;
+}
+
+.product {
+    display:flex;
+    margin:50px 0px;
+}
+
+.product_image {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:65%;
+}
+
+.product_image img {
+    width:600px;
+    margin-top:30px;
+
+}
+
+.product_info {
+    display:flex;
+    flex-direction:column;
+    width:35%;
+    margin-top:50px;
+}
+
+.product_info .title {
+    display:flex;
+    align-items:center;
+    text-align:left;
+    margin-bottom:0;
+}
+
+.product_info .title img {
+    transform:scaleX(-1);
+    display:flex;
+    height:80px;
+    width:80px;
+    padding:10px;
+}
+
+.product_info .part_info {
+    font-size:14px;
+    width:300px;
+    text-align:justify;
+}
+
+.product_info .buttons a{
+    margin-top:40px;
+    margin-left:0;
+}
+
+#double_board {
+    display:flex;
+    height:610px;
+}
+
+.picture {
+    width:50%;
+}
+
+.picture img {
+    width:955px;
+    height:610px;
+}
+
+.board {
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    align-content:flex-start;
+    width:50%;
+    padding:0px 20px;
+    background-color:#bf1e2e;
+    color:#fff;
+}
+
+.board .title {
+    text-align:left;
+    width:550px;
+}
+
+.board .part_info {
+    text-align:justify;
+    font-size:16px;
+    color:#fff;
+    width:500px;
+}
+
+.board ul {
+    display:flex;
+    flex-direction:column;
+    list-style:none;
+    padding:20px 0px;
+}
+
+.board li {
+    padding:30px 0px;
+}
+
+li span {
+    margin-right:15px;
+    content:"\2713";
+}
+
+#more_products {
+    display:flex;
+    justify-content:center;
+}
+
+#more_products .container {
+    display:flex;
+    align-items:center;
+    height:610px;
+}
+
+#more_products .product_info {
+    width:50%;
+    padding-left:20px;
+    margin:0;
+}
+
+#more_products .product_info .part_info {
+    width:300px;
+    text-align:justify;
+}
+
+.ssd_pic {
+    display:flex;
+    align-items:center;
+    width:50%;
+    padding-left:50px;
+}
+
+#bottom {
+    display:flex;
+    justify-content:center;
+    background-color:#313131;
+    height:700px;
+}
+
+#bottom .container {
+    display:flex;
+    flex-direction:column;
+}
+
+#bottom .title {
+    width:inherit;
+    color:#fff;
+    margin:20px 0px 0px 0px;
+}
+
+#bottom .title h1 {
+    margin-bottom:10px;
+}
+
+#bottom .part_info_center {
+    text-align:center;
+    font-size:16px;
+    color:#aaa;
+}
+
+.other_products {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:80px;
+}
+
+.show_product {
+    display:flex;
+    flex-direction:column;
+}
+
+.show_product .part_text {
+    color:#fff;
+}
+
+.show_product .part_info_end {
+    font-size:14px;
+    width:360px;
+    text-align:justify;
+    color:#aaa; 
+}
+
+.show_product a {
+    padding:10px;
+    margin-left:0;
+}
+
+footer {
+    display:flex;
+    justify-content:center;
+    background-color:#1d1d1d;
+    height:auto;
+}
+
+footer .container {
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+    height:fit-content;
+    height:200px;
+}
+
+.footer_area {
+    display:flex;
+    flex-direction:column;
+    width:360px;
+}
+
+.footer_area .topic {
+    color:#fff;
+    font-weight:bold;
+    font-size:22px;
+    margin:20px 0px;
+}
+
+.footer_area .topic2 {
+    color:#fff;
+    font-size:18px;
+    margin:20px 0px 10px 0px;
+}
+
+.footer_area .about {
+    color:#aaa;
+    text-align:justify;
+    font-size:14px;
+}
+
+.footer_area .icons {
+    display:flex;
+    flex-direction:row;
+    margin:10px 0px;
+}
+
+.icons img {
+    height:15px;
+    width:15px;
+    padding:10px;
+}
+
+.icons img:hover {
+    filter: grayscale(1) brightness(5);
+}
+
+.about .list {
+    display:flex;
+    justify-content:left;
+}
+
+.list ul {
+    padding:0;
+    width:50%;
+}
+
+.list li {
+    list-style:none;
+    padding-bottom:10px;
+}
+
+.list a {
+    text-decoration:none;
+    color:#aaa;
+}
+
+.list a:hover {
+    color:#bf1e2e;
+}
+
+.footer_area .icons_pay {
+    display:flex;
+    flex-direction:row;
+    margin:0px 0px 10px 0px;
+}
+
+.icons_pay img {
+    width:40px;
+    height:25px;
+    padding:10px;
+    filter: grayscale(1) brightness(1) invert(1);
+}
+
+.icons_pay img:hover {
+    filter:none;
+}
+
+.about_copy {
+    color:#aaa;
+    padding-top:5px;
+    font-size:12px;
+}
+
+.reference {
+    margin-top:10px;
+}
+
+.reference a {
+    text-decoration:none;
+    color:#1d1d1d;
+    margin:5px;
+    padding:3px;
+    border:1px solid;
+}
+
+.reference a:hover {
+    color:#777;
+    border:1px solid #777;
+}
+
+.menu_mobile {
+    display:none;
+    width:40px;
+    height:40px;
+    margin:20px 0px;
+}
+
+.mm_line {
+    height:3px;
+    background-color:#bf1e2e;
+}
+
+@media (max-width:1400px) {
+    .container {
+        width:1024px;
+    }
+    #double_board {
+        width:1024px;
+        height:334px;
+    }
+    #double_board img {
+        width:512px;
+        height:334px;
+    }
+    #double_board .board {
+        width:472px;
+        height:334px;
+    }
+    .board .title {
+        width:fit-content;
+    }
+    .board h1 {
+        font-size:20px;
+        margin:0px;
+        width:fit-content;
+    }
+    .board .part_info {
+        width:450px;
+        font-size:12px;
+    }
+    .board li {
+        padding:10px 0px;
+    }
+    .show_product {
+        width:300px;
+        padding:10px;
+    }
+    .show_product .part_info_end {
+        font-size:14px;
+        width:300px;
+    }
+    .footer_area {
+        width:300px;
+        margin:0px 10px;
+    }
+}
+
+@media (max-width:1020px) {
+    .container {
+        width:768px;
+    }
+    #banner .container {
+        display:flex;
+        flex-direction:column;
+        margin-top:20px;
+    }
+    .part_info {
+        width:150px;
+    }
+    .product_image {
+        width:55%;
+    }
+    .product_image img {
+        width:400px;
+        height:329px;
+    }
+    .product_info {
+        width:45%;
+        padding:0px 20px;
+    }
+    #double_board {
+        display:flex;
+        flex-direction:column-reverse;
+        height:auto;
+        width:auto;
+    }
+    #double_board img {
+        width:768px;
+        height:501px;
+    }
+    #double_board .board {
+        width:728px;
+    }
+    .ssd_pic {
+        padding-left:10px;
+    }
+    .ssd_pic img {
+        width:350px;
+        height:171px;
+    }
+    #bottom {
+        height:auto;
+    }
+   .other_products {
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:center;
+    }
+}
+
+@media (max-width:750px) {
+    .container {
+        width:425px;
+    }
+    #banner .container {
+        display:flex;
+        flex-direction:row;
+    }
+    .menu_mobile {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    nav ul {
+        flex-direction:column;
+        display:none;
+        position:absolute;
+        left:0;
+        width:100%;
+        background-color:#1d1d1d;
+    }
+    nav ul li {
+        padding:15px 0px;
+        border-top:1px solid #000;
+    }
+    #intro .container {
+        display:flex;
+        flex-direction:column;
+    }
+    #new_product .container {
+        height:auto;
+    }
+    .brands {
+        flex-wrap:wrap;
+    }
+    .title h1 {
+        font-size:30px;
+    }
+    .pc_parts {
+        flex-wrap:wrap;
+    }
+    .part {
+        margin-top:20px;
+    }
+    .product {
+        flex-direction:column;
+        align-items:center;
+    }
+    .product_info {
+        margin-top:0;
+        margin-right:30px;
+    }
+    .product_info .title {
+        width:270px;
+    }
+    .product_info .part_info {
+        width:200px;
+    }
+    #double_board {
+        width:425px;
+    }
+    #double_board .board {
+        width:385px;
+    }
+    .board .part_info {
+        width:350px;
+    }
+    .board ul {
+        margin:0;
+        padding:10px 0px;
+    }
+    #double_board img {
+        width:425px;
+        height:277px;
+    }
+    #more_products .container {
+        flex-direction:column;
+        align-items:flex-start;
+        margin-left:30px;
+    }
+    #bottom .container {
+        align-items:center;
+    }
+    .part_info_center {
+        margin-top:20px;
+        width:320px;
+    }
+    footer .container {
+        flex-direction:column;
+        align-items:center;
+        width:425px;
+        height:auto;
+    }
+    .footer_area {
+        border-bottom:1px solid #aaa;
+    }
+    #no_border {
+        border:none;
+    }
+    .reference {
+        margin-bottom:20px;
+    }
+}
+
+@media (max-width:375px) {
+    .container {
+        width:375px;
+    }
+    .product_image img {
+        width:300px;
+        height:247px;
+    }
+    .product_info {
+        margin-right:60px;
+    }
+    .product_info .title {
+        width:270px;
+    }
+    .product_info .part_info {
+        width:200px;
+    }
+    #double_board {
+        width:375px;
+    }
+    #double_board .board {
+        width:335px;
+    }
+    .board .title h1 {
+        font-size:22px;
+    }
+    .board .part_info {
+        width:350px;
+    }
+    .board ul {
+        margin:0;
+        padding:10px 0px;
+    }
+    #double_board img {
+        width:375px;
+        height:245px;
+    }
+    .ssd_pic img {
+        width:300px;
+        height:147px;
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        width:320px;
+    }
+    .brands img {
+        width:150px;
+        height:67px;
+    }
+    #new_product .product .title {
+        width:250px;
+    }
+    #new_product .title h1 {
+        font-size:26px;
+    }
+    .pc_parts {
+        flex-direction:column;
+    }
+    .part .part_info {
+        width:250px;
+    }
+    #double_board {
+        width:320px;
+    }
+    #double_board .board {
+        width:280px;
+    }
+    .board .title h1 {
+        font-size:20px;
+    }
+    .board .part_info {
+        width:280px;
+    }
+    #double_board img {
+        width:320px;
+        height:209px;
+    }
+    #more_products .container {
+        margin-left:10px;
+    }
+    #more_products .product_info .part_info {
+        width:260px;
+    }
+    .ssd_pic img {
+        width:250px;
+        height:122px;
+    }
+}
